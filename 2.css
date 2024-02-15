@@ -1,0 +1,168 @@
+body,p,h1,h2,ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(131, 131, 131);
+	font-family: sans-serif;
+	background-image: url(he.jpg);
+	background-size: 200%;
+}
+
+.wrapper {
+	width: 1020px;
+	display: flex;
+}
+
+header {
+	background-color: rgb(131, 131, 131);
+}
+
+#menu {
+	min-height: 50px;
+	align-items: center;
+	display: flex;
+	margin-left: 20px;
+}
+
+#menu a:link,
+#menu a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+#menu a:hover,
+#menu a.active {
+	text-decoration: underline;
+}
+
+aside {
+	width: 360px;
+	background-color: #ffffff;
+	padding: 20px 20px 20px 10px;
+	box-sizing: border-box;
+}
+
+aside>div {
+	margin: 20px 20px 0 0;
+}
+
+aside h2 {
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+aside p,
+aside li {
+	font-size: 16px;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+aside ul {
+	list-style-type: none
+}
+
+main {
+	text-align: justify;
+	width: 1020px;
+	background-color: #bbbbbb;
+	padding: 20px 10px 20px 20px;
+	box-sizing: border-box;
+}
+
+main h1 {
+	font-size: 15px;
+}
+
+main h2 {
+	font-size: 15px;
+	margin-top: 15px;
+}
+
+main p {
+	margin: 10px 0;
+}
+
+main img {
+	width: 500px;
+	height: 500px;
+	background-size: contain;
+}
+
+footer {
+	color: #525252;
+	display: flex;
+	min-height: 75px;
+	align-items: center;
+	justify-content: center;
+	background-color: #000000;
+}
+
+.price {
+	margin-top: 10px;
+	width: 300px;
+}
+
+.price td,
+.price th {
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+.price th {
+	background-color: rgb(194, 194, 194);
+}
+
+.picture {
+	width: 100px;
+	height: 100px;
+}
+
+nav a {
+	margin-right: 20px;
+	font-size: 18px;
+}
+#news {
+    margin-left: 0%;
+}
+
+.n1 {
+    margin-top: 70px;
+    display: inline-flex;
+}
+.n1 h1 {
+    color: #000000;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.n1 p {
+    color: #4b4b4b;
+    margin-left: 20px;
+}
+a {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 15px 30px;
+	padding: 15px 20px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	transition: 0.4s ease-in-out;
+	color:#000000;
+ }
+ .a {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	transition: 0.4s ease-in-out;
+	color:#000000;
+ }
